@@ -1,19 +1,5 @@
 {
-"usuario" : [
-{"username":"magabriela",
-"clave":"****",
-"rol":"A",
-"codTrabajador":1,
-"estatus":"A"},
-
-{"username":"jose","clave":"***","rol":"A","codTrabajador":1,"estatus":"A"}
-{"username":"pablo","clave":"***","rol":"A","codTrabajador":1,"estatus":"A"},
-{"username":"juan","clave":"***","rol":"A","codTrabajador":1,"estatus":"A"},
-{"username":"jjj","clave":"***","rol":"A","codTrabajador":1,"estatus":"A"}
-
-],
-
-"posts": [
+  "posts": [
     {
       "id": 1,
       "title": "Post 1"
@@ -27,4 +13,19 @@
       "title": "Post 3"
     }
   ],
- }
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
